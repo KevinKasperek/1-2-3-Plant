@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Fredericka';
+    src: url("../fonts/FrederickatheGreat-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffff;
+    margin: 0px;
+}
+
+header {
+    background-image: url("../img/Lev3_2_css-einführung_box-model_img.jpg");
+    background-size: 100vh;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Fredericka';
+    color: #ffff;
+    padding: 20px 0 0 80px;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Fredericka';
+    color: #ffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header section article {
+    margin: 0 auto;
+    text-align: center;
+    width: 350px;
+    margin-top: 50px;
+}
+
+header section article p {
+    color: #ffff;
+    font-family: 'OpenSans';
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+header section article a {
+    color: #ffff;
+    font-family: 'OpenSans';
+    text-decoration: none;
+    border: 2px solid #ffff;
+    border-radius: 2px;
+    padding: 6px 25px 6px 25px;
+}
+
+
+header nav {
+    text-align: right;
+    margin-top: 90px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+header div nav ul li {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    list-style: none;
+    padding: 15px;
+
+
+}
+
+header nav ul li a {
+    color: #ffff;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-family: 'Fredericka';
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+section article {
+
+    margin: 0 auto;
+    width: 450px;
+    text-align: center;
+    font-family: 'OpenSans';
+    font-size: 14px;
+    margin-top: 40px;
+
+
+}
+
+section article div {
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    width: 150px;
+    border: 3px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+section article div a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: #3a3a3a;
+    font-family: 'OpenSans';
+    color: #ffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
+}
+
+footer section {
+    text-align: left;
+    margin-left: 15px;
+
+}
+
+footer section p {
+    width: 600px;
+    font-size: 12px;
+    margin-bottom: 20px;
+
+}
+
+footer section a {
+    color: #ffff;
+    text-decoration: none;
+    border: 1px solid #ffff;
+    border-radius: 2px;
+    padding: 6px 25px 6px 25px;
+}
+
+footer nav {
+    text-align: right;
+}
+
+footer nav a {
+    color: #ffff;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 20px;
+}
